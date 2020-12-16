@@ -1,7 +1,14 @@
 const KeyValue = document.getElementById("keyValue");
 const KeyCode = document.getElementById("keyCode");
 const CharCode = document.getElementById("charCode");
+const Heading = document.getElementById("heading");
 const Key = document.getElementsByClassName("key");
+
+
+window.addEventListener("keypress", (event) => {
+    Heading.innerHTML = event.keyCode;
+})
+
 
 window.addEventListener("keypress", (event) => {
     KeyValue.innerHTML = event.key;
