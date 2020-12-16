@@ -1,0 +1,37 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+  
+.key{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    padding: 0px 30px;
+    margin: 0 30px;
+}
+
+.key {
+    
+}
+
+h1, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
