@@ -5,9 +5,9 @@ const Heading = document.getElementById("heading");
 const Key = document.getElementsByClassName("key");
 
 
-window.addEventListener("keypress", (event) => {
-    Heading.innerHTML = event.keyCode;
-})
+// window.addEventListener("keypress", (event) => {
+//     Heading.innerHTML = event.keyCode;
+// })
 
 
 window.addEventListener("keypress", (event) => {
@@ -36,4 +36,4 @@ function changeColour() {
     Key.style.colour = colour;
 }
 
-Key.addEventListener("keypress", changeColour);
+// Key.addEventListener("keypress", changeColour);
